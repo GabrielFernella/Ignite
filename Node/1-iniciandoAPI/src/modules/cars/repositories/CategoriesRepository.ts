@@ -7,8 +7,18 @@ import {
 class CategoriesRepository implements ICategoriesRepository {
     private categories: Category[];
 
-    constructor() {
+    private static INSTANCE: CategoriesRepository;
+
+    private constructor() {
         this.categories = [];
+    }
+
+    // Utilizamos esse método para compartilhar a instancia desse repositorio
+    public static getInstance(): CategoriesRepository {
+        if (!CategoriesRepository.INSTANCE) {
+            CategoriesRepository.INSTANCE = new CategoriesRepository();
+        }
+        return CategoriesRepository.INSTANCE;
     }
 
     findAll(): Category[] {
