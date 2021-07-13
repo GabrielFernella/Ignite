@@ -28,4 +28,4 @@ categoriesRoutes.post("/", (req, res) => {
     }
 });
 
-export default categoriesRoutes;
+export { categoriesRoutes };
