@@ -5,6 +5,7 @@
 4. yarn add swagger-ui-express && yarn add @types/swagger-ui-express -D
 5. yarn add typeorm reflect-metadata
 6. yarn add pg
+7. yarn add tsyringe
   
 
 # Commands
@@ -19,4 +20,9 @@
 9. docker logs rentx -f (Você acessa o terminal do docker e consegue visualizar os logs)
 10. docker-compose up --force-recreate (Recria meu docker compose, caso vc tenha alguma alteração)
 11. docker exec database_ignite cat /etc/hosts (para verificar o IP da maquina docker)
-12. docker-compose up -d —force-recreate no terminal, para atualizar as informações do container. 
+12. docker-compose up -d —force-recreate no terminal, para atualizar as informações do container.
+
+# Commands 2
+1. yarn typeorm migration:create -n CreateCategories (Criando uma migration)
+2. yarn typeorm migration:run
+3. yarn typeorm migration:revert

@@ -1,10 +1,11 @@
 import express from "express";
 import swaggerUi from "swagger-ui-express";
 
+import "./database";
+
+import "./shared/container"; // Chamando a injeção de dependencias para o projeto
 import { router } from "./routes";
 import swaggerfile from "./swagger.json";
-
-import "./database";
 
 const app = express();
 app.use(express.json());
