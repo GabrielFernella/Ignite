@@ -3,6 +3,8 @@
 2. yarn add multer && yarn add @types/multer -D
 3. yarn add csv-parse
 4. yarn add swagger-ui-express && yarn add @types/swagger-ui-express -D
+5. yarn add typeorm reflect-metadata
+6. yarn add pg
   
 
 # Commands
@@ -15,4 +17,6 @@
 7. docker-compose down (Remove tudo que foi criado)
 8. docker exec -it rentx /bin/bash (Acessar o container) 
 9. docker logs rentx -f (Você acessa o terminal do docker e consegue visualizar os logs)
-10. 
+10. docker-compose up --force-recreate (Recria meu docker compose, caso vc tenha alguma alteração)
+11. docker exec database_ignite cat /etc/hosts (para verificar o IP da maquina docker)
+12. docker-compose up -d —force-recreate no terminal, para atualizar as informações do container. 
