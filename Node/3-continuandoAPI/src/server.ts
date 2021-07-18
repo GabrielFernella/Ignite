@@ -1,9 +1,14 @@
+import "reflect-metadata";
 import express from "express";
 import swaggerUi from "swagger-ui-express";
 
 import swaggerFile from "./swagger.json";
 
+//import createConnection from "./database";
+
 import "./database";
+
+//createConnection();
 
 import "./shared/container";
 
@@ -16,8 +21,6 @@ app.use(express.json());
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
 app.use(router);
-
-console.log("TESTE");
 
 app.listen(3333, () => {
     console.log("Server is up! :D");
