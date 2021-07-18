@@ -6,6 +6,8 @@
 5. yarn add typeorm reflect-metadata
 6. yarn add pg
 7. yarn add tsyringe
+8. yarn add bcrypt && yarn add @types/bcrypt -D
+9. yarn add jsonwebtoken && yarn add @types/jsonwebtoken -D
   
 
 # Commands
