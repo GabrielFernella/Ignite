@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
+        <title>Abastece Aí</title>
+        <style type="text/css">
+            @media only screen and (max-width: 600px) {
+                .container {
+                    width: 95% !important;
+                    margin: 2.5%;
+                }
+                .hide {
+                    display: none !important;
+                }
+                .coll {
+                    display: block !important;
+                    width: 100% !important;
+                }
+                .text-center {
+                    text-align: center !important;
+                }
+            }
+        </style>
+    </head>
+    <body bgcolor="#F9F8FE">
+        <p style="font-size: 1px; display: none;"></p>
+        <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#F9F8FE" style="max-width: 700px;">
+            <tr>
+                <td width="3%"></td>
+                <td>
+                    <table cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#F9F8FE" style="max-width: 600px;">
+                        <tr>
+                            <td align="center" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; padding: 0; margin: 0; border-collapse: collapse !important; padding: 20px 0;">
+                                <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="container">
+                                    <tr>
+                                        <td valign="top" bgcolor="#F9F8FE">
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                                <tr>
+                                                    <td height="10" style="font-size: 0; line-height: 0;"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top">
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                                                            <tr>
+                                                                <td valign="top" width="39" class="coll" height="10"></td>
+                                                                <td valign="top" align="left" class="coll">
+                                                                    <table>
+                                                                        <tr>
+                                                                            <td valign="middle" width="50" align="center">
+                                                                                <img src="https://imaginera.com.br/emkt/ipiranga/base/newbase/logo-abasteceai-cinza.jpg?v=0" alt="Revista Km" border="0" style="display: block;" />
+                                                                            </td>
+                                                                            <td valign="top" height="10"></td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                                <td valign="top" class="coll" height="10"></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="10" style="font-size: 0; line-height: 0;"></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" bgcolor="#3E7FFF">
+                                            <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#3E7FFF">
+                                                <tr>
+                                                    <td valign="top">
+                                                        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                            <tr>
+                                                                <td valign="middle" align="center" class="coll">
+                                                                    <table width="100%" cellspacing="0" cellpadding="0" border="0" align="left">
+                                                                        <tr>
+                                                                            <td valign="top" class="text-center">
+                                                                                <img src="https://www.imaginera.com.br/emkt/ipiranga/202010/26/images/img1.jpg?v=1" alt="" border="0" style="display: block; max-width: 100%;" />
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="45" style="font-size: 0; line-height: 0;"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <table>
+                                                            <tr>
+                                                                <td>
+                                                                    <table width="90%" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                                        <tr>
+                                                                            <td valign="top" align="left" class="coll text-center">
+                                                                                <span style="color: #ffffff; font-family: arial; font-size: 21px; font-weight: bold;">
+                                                                                    {{name}}, falta pouco para concluir o cadastro deste seu e-mail como sua chave Pix.<br />
+                                                                                    <br />
+                                                                                    Segue o código abaixo:<br />
+                                                                                    {{token}}
+                                                                                </span>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="30" style="font-size: 0; line-height: 0;"></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" align="center" class="text-center" bgcolor="#3E7FFF">
+                                            <img src="https://www.imaginera.com.br/emkt/ipiranga/202007/05/images/img-borda3.jpg?v=0" alt="" border="0" style="display: block; max-width: 100%;" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top" bgcolor="#3E7FFF">
+                                            <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                                                <tr>
+                                                    <td height="45" style="font-size: 0; line-height: 0;"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top">
+                                                        <table width="90%" cellpadding="0" cellspacing="0" align="center" border="0">
+                                                            <tr>
+                                                                <td valign="middle" align="center">
+                                                                    <span style="font-family: arial; font-size: 12px; color: #ffffff; line-height: 25px; font-weight: 200;">
+                                                                        Uma empresa do grupo Ultra - Copyright © abastece aí {{year}} | Central de Atendimento: Consumidor - 3003-3424. Horário de Atendimento: 2ª à 6ª: 9h às 21h / Sábado: 9h
+                                                                        às 18h.
+                                                                    </span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="30" style="font-size: 0; line-height: 0;"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td valign="middle" align="center">
+                                                                    <span style="font-family: arial; font-size: 12px; color: #ffffff; font-weight: 200;">
+                                                                        <br />
+                                                                        {{date}}
+                                                                    </span>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="30" style="font-size: 0; line-height: 0;"></td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="3%"></td>
+            </tr>
+        </table>
+    </body>
+</html>
+
